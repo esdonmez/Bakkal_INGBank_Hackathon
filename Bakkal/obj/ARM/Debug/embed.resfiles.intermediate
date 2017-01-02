@@ -1,0 +1,13 @@
+App.xbf
+MainPage.xbf
+Styles\TextBoxStyle.xbf
+Views\ContentDialogs\ReportDialog.xbf
+Views\LoginView.xbf
+Views\MarketDetailsView.xbf
+Views\MarketsView.xbf
+Views\NotificationView.xbf
+Views\ProfileView.xbf
+Views\RegisterView.xbf
+Views\SettingView.xbf
+Views\ShoppingView.xbf
+Views\StartView.xbf

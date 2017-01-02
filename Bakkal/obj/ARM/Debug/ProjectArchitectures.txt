@@ -1,0 +1,4 @@
+C:\Users\onurcelikeng\Documents\Visual Studio 2015\Projects\Bakkal\Bakkal.Client\Bakkal.Client.csproj;neutral
+C:\Users\onurcelikeng\Documents\Visual Studio 2015\Projects\Bakkal\Bakkal\Bakkal.csproj;arm
+C:\Users\onurcelikeng\Documents\Visual Studio 2015\Projects\Bakkal\BakkalAPI.Models\BakkalAPI.Models.csproj;neutral
+C:\Users\onurcelikeng\Documents\Visual Studio 2015\Projects\Bakkal\BakkalAPI.Models\BakkalAPI.Models.csproj;neutral

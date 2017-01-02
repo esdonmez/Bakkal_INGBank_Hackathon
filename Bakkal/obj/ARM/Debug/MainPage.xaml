@@ -1,0 +1,83 @@
+﻿<Page
+    x:Class="Bakkal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bakkal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Background>
+        <SolidColorBrush Color="#e1655c"/>
+    </Page.Background>
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <EntranceNavigationTransitionInfo/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid>
+
+        <Grid.Background>
+            <SolidColorBrush Color="#e1655c"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="45"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+
+            <Frame x:ConnectionId='5' x:Name="iframe"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <Grid.Background>
+                <SolidColorBrush Color="#fbe3a3"/>
+            </Grid.Background>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+
+                <Image x:ConnectionId='4' x:Name="marketButton" Source="ms-appx:///Assets/Icons/supermarket.png" Margin="9" HorizontalAlignment="Center" VerticalAlignment="Center"                             />
+         
+            </Grid>
+
+            <Grid Grid.Column="1">
+
+                <Image x:ConnectionId='3' x:Name="shoppingButton" Source="ms-appx:///Assets/Icons/shop.png" Margin="7" HorizontalAlignment="Center" VerticalAlignment="Center"                               />
+
+            </Grid>
+
+            <Grid Grid.Column="2">
+
+                <Image x:ConnectionId='2' x:Name="notificationButton" Source="ms-appx:///Assets/Icons/notification.png" Margin="11" HorizontalAlignment="Center" VerticalAlignment="Center"                                   />
+
+            </Grid>
+
+            <Grid Grid.Column="3">
+
+                <Image x:ConnectionId='1' x:Name="profileButton" Source="ms-appx:///Assets/Icons/profile.png" Margin="11" HorizontalAlignment="Center" VerticalAlignment="Center"                              />
+
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+
+</Page>
+
